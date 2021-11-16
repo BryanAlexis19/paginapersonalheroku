@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     
 })
 
-app.use(express.static('static'))
+app.use(express.static('https://bryanalexis19.github.io/paginapersonalheroku/static/'))
 
 app.listen(port, () => {
   console.log(`Corriendo en http://localhost:${port}`)
